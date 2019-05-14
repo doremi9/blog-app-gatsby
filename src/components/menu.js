@@ -5,6 +5,7 @@ const Menu = () => (
     style = {{
         background: '#f4f4f4',
         paddingTop: '10px',
+        width:'100%',
     }}>
     <ul style = {{
         listStyle:'none' , 
@@ -12,7 +13,8 @@ const Menu = () => (
         justifyContent: 'space-evenly',
     }}>
          <li> <Link to ="/">Home </Link> </li>
-         <li> <Link to ="/blog">Blog </Link> </li>
+         <li> <Link to ="/blog">Blogs </Link> </li>
+         <li> <Link to ="/about">Domains </Link> </li>
          <li> <Link to ="/about">About </Link> </li>
     </ul>
 </div>
