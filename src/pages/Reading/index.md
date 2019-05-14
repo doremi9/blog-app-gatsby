@@ -1,5 +1,5 @@
 ---
-path : "/post-one"
+path : "/post-two"
 date : "2019-02-01"
 title: "A begginers Take on reading"
 author: "Abhinav Vinci"
