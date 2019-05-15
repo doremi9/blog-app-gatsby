@@ -10,8 +10,9 @@ const AboutPage = () => (
   <br />
     <h1>  About the Blog Series   </h1>
     <p> 
-    The blog series will have majorly 3 domains : Development, Coding and Books. I will mostly write about what i have recently 
-    learnt in deveopment field. Sometimes sharing the books and related info which fascinate me. 
+    The blog series will have majorly 3 domains : Development, Coding and Books. I will mostly write about tools and 
+     technologies which i learn while creating products. Also I do plan to share
+     occasionally some fascinating ideas and principles which i will come across while reading books. 
     </p>
     <hr />
     <br />
@@ -19,9 +20,16 @@ const AboutPage = () => (
   <h1>  Me 🙄  </h1>
   <br />
   <p> 
-  Hi! I am Vinci, A final year dual degree student at IIIT Allahabad. I love coding and building things. 
+  Hi! I am Vinci, A final year dual degree student at IIIT Allahabad. I love coding and creating things. 
   My hobbies include reading books, any outdoor activity 😍 and sometimes long talks about anything 😃. 
-  These days I am mostly active on Github and Goodreads.
+  These days I am mostly active on 
+  {` `} 
+  <a href={`https://github.com/avvinci`} style= {{color:'blue'}}>
+   Github </a>
+    and {` `}
+    <a href={`https://www.goodreads.com/user/show/90010944-abhinav-vinci`}  style= {{color:'blue'}}>
+      Goodreads </a>
+      .
   </p>
   <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,marginTop: `1.45rem` }}>
   <Displaypic />
