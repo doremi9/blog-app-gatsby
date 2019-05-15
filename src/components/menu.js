@@ -14,7 +14,7 @@ const Menu = () => (
     }}>
          <li> <Link to ="/">Home </Link> </li>
          <li> <Link to ="/blog">Blogs </Link> </li>
-         <li> <Link to ="/page-2">Domains </Link> </li>
+         <li> <Link to ="/page-2">Ideas </Link> </li>
          <li> <Link to ="/about">About </Link> </li>
     </ul>
 </div>

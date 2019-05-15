@@ -2,13 +2,13 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Menu from "../components/menu"
 const BlogPage = ({data}) => (
 
 
 <Layout>
   <SEO title="Blogs" />
   <h1> Latest Blogs </h1>
+
   {data.allMarkdownRemark.edges.map(post=> (
       <div key={post.node.id}>
       <h3>{post.node.frontmatter.title}</h3>
@@ -18,7 +18,6 @@ const BlogPage = ({data}) => (
       <Link to={post.node.frontmatter.path}> Read More </Link>
       <br />
       <br />
-      <hr />
 
       </div> 
   ))}
