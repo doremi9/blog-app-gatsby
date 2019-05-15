@@ -7,17 +7,18 @@ import SEO from "../components/seo"
 import Menu from "../components/menu"
 
 const IndexPage = () => (
+  
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <Menu />
+  
     <h1>Hi people</h1>
     <p>Welcome to my Blog !! .</p>
-    <p>Now lets build and write something great.</p>
+    <p>Lets build and write something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
     <br />
-    <Link to="/blog/">Go to Blogs</Link>
+    <Link to="/blog/">See all Blogs</Link>
     <br />
     <br />
     <br />

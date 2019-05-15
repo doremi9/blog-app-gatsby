@@ -8,6 +8,8 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
+import Menu from "./menu"
+
 
 import Header from "./header"
 import "./layout.css"
@@ -26,6 +28,8 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
+        <Menu />
+
         <div
           style={{
             margin: `0 auto`,
@@ -35,6 +39,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
+          <hr />
           <footer>
             © May {new Date().getFullYear()},  Built by Abhinav Vinci using  
             {` `}

@@ -12,7 +12,6 @@ export default function Template({data}){
         <div>
         <Layout > 
         <SEO title="Blog-posts" />
-        <Menu />
      
      
         <h1> {post.frontmatter.title} </h1>

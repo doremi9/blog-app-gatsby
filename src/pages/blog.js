@@ -8,7 +8,6 @@ const BlogPage = ({data}) => (
 
 <Layout>
   <SEO title="Blogs" />
-  <Menu />
   <h1> Latest Blogs </h1>
   {data.allMarkdownRemark.edges.map(post=> (
       <div key={post.node.id}>
