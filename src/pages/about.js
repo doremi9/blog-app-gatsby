@@ -8,17 +8,17 @@ const AboutPage = () => (
   <Layout>
   <SEO title="About Me" />
   <br />
-    <h1>  About the Blog Series   </h1>
+    <h2>  About the Blog Series   </h2>
     <p> 
-    The blog series will have majorly 3 domains : Development, Coding and Books. I will mostly write about tools and 
+    Always Creating is a blog series  majorly focussing on 3 domains : Development, Coding and Books. I will mostly write about tools and 
      technologies which i learn while creating products. Also I do plan to share
      occasionally some fascinating ideas and principles which i will come across while reading books. 
     </p>
+    <br />
     <hr />
     <br />
 
-  <h1>  Me 🙄  </h1>
-  <br />
+  <h2>  About Me 🙄  </h2>
   <p> 
   Hi! I am Vinci, A final year dual degree student at IIIT Allahabad. I love coding and creating things. 
   My hobbies include reading books, any outdoor activity 😍 and sometimes long talks about anything 😃. 

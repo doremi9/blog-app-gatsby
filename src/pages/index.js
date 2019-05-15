@@ -10,16 +10,18 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
   
-    <h1>Hi people</h1>
-    <p>Welcome to my Blog !!   Lets build and write something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <h3>Hi All </h3>
+    <p>Welcome to my Always Creating !! A Blog Website dedicated to learning and sharing 
+      ideas and technologies, which I will come across while creating products. </p>
+      <strong>Lets Create Great things !! 😎  </strong> 
+    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,  marginTop: `1.45rem` }}>
       <Image />
     </div>
     <br />
     <Link to="/blog/"  
     style={{
             color : '#e76c67' , 
-          }}> See all Blogs</Link>
+          }}> <h3>See all Blogs </h3></Link>
           
     <br />
     <br />
