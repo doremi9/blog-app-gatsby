@@ -15,13 +15,13 @@ export default function Template({data}){
      
      
         <h1> {post.frontmatter.title} </h1>
-        <h4>Posted by {post.frontmatter.author} on {post.frontmatter.date}</h4>
+        <h4> {post.frontmatter.date}</h4>
         <hr />
         <br /> 
         < div dangerouslySetInnerHTML = {{ __html: post.html}}/>
         <br /> 
 
-        <Link to ="/blog">Go Back</Link>
+        <Link to ="/blog" style = {{color : 'blue'}}>Go Back</Link>
         <br /> 
 
         </Layout>
@@ -37,7 +37,7 @@ export const postQuery = graphql`
                 path 
                 title
                 author
-                date
+                date(formatString: "MMMM DD, YYYY")
             }
         }
     }

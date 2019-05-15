@@ -16,7 +16,11 @@ const IndexPage = () => (
       <Image />
     </div>
     <br />
-    <Link to="/blog/">See all Blogs</Link>
+    <Link to="/blog/"  
+    style={{
+            color : '#e76c67' , 
+          }}> See all Blogs</Link>
+          
     <br />
     <br />
     <br />

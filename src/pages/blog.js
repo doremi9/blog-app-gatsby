@@ -12,10 +12,12 @@ const BlogPage = ({data}) => (
   {data.allMarkdownRemark.edges.map(post=> (
       <div key={post.node.id}>
       <h3>{post.node.frontmatter.title}</h3>
-      <small>Posted by {post.node.frontmatter.author} on {post.node.frontmatter.date}</small>
+      <small>{post.node.frontmatter.date}</small>
       <br />
       <br />
-      <Link to={post.node.frontmatter.path}> Read More </Link>
+    
+          <Link to={post.node.frontmatter.path}> Read More </Link>
+
       <br />
       <br />
 
@@ -27,14 +29,14 @@ const BlogPage = ({data}) => (
 
 export const pageQuery = graphql`
 query BlogIndexQuery{
-    allMarkdownRemark{
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
         edges{
           node{
             id
             frontmatter{
               path
               title
-              date
+              date(formatString: "MMMM DD, YYYY")
               author
             }
           }
