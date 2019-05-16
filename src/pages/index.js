@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-const IndexPage = () => (
+const IndexPage = ({data}) => (
   
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
@@ -18,9 +18,26 @@ const IndexPage = () => (
       <Image />
     </div>
     <br />
+    <h3> Latest Articles</h3>
+    <hr />
+    <Link to={data.allMarkdownRemark.edges[0].node.frontmatter.path} style = {{color : '#925FCF'}}>
+       <h4> {data.allMarkdownRemark.edges[0].node.frontmatter.title}</h4>
+    </Link> 
+    <br />
+    <Link to={data.allMarkdownRemark.edges[1].node.frontmatter.path} style = {{color : '#925FCF'}} >
+       <h4> {data.allMarkdownRemark.edges[1].node.frontmatter.title}</h4>
+    </Link> 
+    <br />
+
+    <Link to={data.allMarkdownRemark.edges[2].node.frontmatter.path} style = {{color : '#925FCF'}}>
+       <h4> {data.allMarkdownRemark.edges[2].node.frontmatter.title}</h4>
+    </Link> 
+
+    <br />
+
     <Link to="/blog/"  
     style={{
-            color : '#e76c67' , 
+            color : '#CF5F9C' , 
           }}> <h3>See all Blogs </h3></Link>
           
     <br />
@@ -28,5 +45,23 @@ const IndexPage = () => (
     <br />
   </Layout>
 )
+
+export const pageQuery = graphql`
+query MainIndexQuery{
+    allMarkdownRemark(limit:3, sort: { fields: [frontmatter___date], order: DESC }) {
+        edges{
+          node{
+            id
+            frontmatter{
+              path
+              title
+              date(formatString: "MMMM DD, YYYY")
+              author
+            }
+          }
+        }
+      }
+}
+`
 
 export default IndexPage
