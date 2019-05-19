@@ -13,6 +13,7 @@ import Menu from "./menu"
 
 import Header from "./header"
 import "./layout.css"
+import "./menu.css"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -39,7 +40,7 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <hr />
+          <hr />  
           <footer>
             © May {new Date().getFullYear()},  Built by Abhinav Vinci using  
             {` `}

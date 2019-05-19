@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./menu.css"
 const Menu = () => (
 <div
     style = {{
         background: '#f4f4f4',
+       
         paddingTop: '10px',
         width:'100%',
     }}>
@@ -11,11 +13,12 @@ const Menu = () => (
         listStyle:'none' , 
         display: 'flex' , 
         justifyContent: 'space-evenly',
+        color: '#0000FF',
     }}>
-         <li> <Link to ="/">Home </Link> </li>
-         <li> <Link to ="/blog">Blogs </Link> </li>
-         <li> <Link to ="/page-2">Ideas </Link> </li>
-         <li> <Link to ="/about">About </Link> </li>
+         <li class="menu-link"> <Link to ="/">Home </Link> </li>
+         <li class="menu-link"> <Link to ="/blog">Blogs </Link> </li>
+         <li class="menu-link"> <Link to ="/page-2">Ideas </Link> </li>
+         <li class="menu-link"> <Link to ="/about">About </Link> </li>
     </ul>
 </div>
 )

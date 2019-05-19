@@ -35,7 +35,7 @@ In this Chapter we will take a topic, understand its basics and the dive into so
 
 ### The Crucial topics
 
-<!-- ![blogImg](./isFinal.png) -->
+![blogImg](./isFinal.png)
 
 Once you have aced through the beginner problems, the interviewer is already pleased. Just solve the crucial problem and you are all set to get an offer. Lets Begin!
 
@@ -59,7 +59,7 @@ Once you have aced through the beginner problems, the interviewer is already ple
 
 Well you have solved all the problems. The interviewer now wants to test your limit.Can you go the extra mile? Now comes the PRO question, Solve it and leave the interviewer in awe..
 
- > Warning: Practice these topics only when you have covered everything else.
+ > *Warning: Practice these topics only when you have covered everything else.*
 
 *Segment tree* — Segment tree will make your life a lot easier if you are able to master it. This data structure can solve a whole lot of problems. If are able to master it, I am assured you are on your way to a top tier company :)
 

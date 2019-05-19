@@ -7,19 +7,20 @@ const BlogPage = ({data}) => (
 
 <Layout>
   <SEO title="Blogs" />
-  <h1> Latest Blogs </h1>
-
+  <h2  style={{color:'#333333'}}> Latest Blogs </h2>
+  <hr />
+  
   {data.allMarkdownRemark.edges.map(post=> (
       <div key={post.node.id}>
       <Link to={post.node.frontmatter.path}> 
-        <h3>{post.node.frontmatter.title}</h3>
+        <h3 style={{color:'#333333'}}>{post.node.frontmatter.title}</h3>
       </Link>
 
-      <small>{post.node.frontmatter.date}</small>
+      <small  style={{color:'#333333'}}>{post.node.frontmatter.date}</small>
       <br />
       <br />
     
-          <Link to={post.node.frontmatter.path}> Read More </Link>
+          <Link to={post.node.frontmatter.path} style={{color:'#666666'}}> Read More </Link>
 
       <br />
       <br />
