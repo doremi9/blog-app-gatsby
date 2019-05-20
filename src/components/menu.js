@@ -15,8 +15,8 @@ const Menu = () => (
         justifyContent: 'space-evenly',
         color: '#0000FF',
     }}>
-         <li class="menu-link"> <Link to ="/">Home </Link> </li>
-         <li class="menu-link"> <Link to ="/blog">Blogs </Link> </li>
+         <li id ="menu-link"> <Link to ="/">Home </Link> </li>
+         <li className = "menu-link"> <Link to ="/blog">Blog </Link> </li>
          <li class="menu-link"> <Link to ="/page-2">Ideas </Link> </li>
          <li class="menu-link"> <Link to ="/about">About </Link> </li>
     </ul>

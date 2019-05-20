@@ -47,7 +47,7 @@ const IndexPage = ({data}) => (
     <br /> <br />
     < a href = "https://www.taniarascia.com/blog/"  style = {{color : '#925FCF'}} > Taniarascia blog </a> 
     </h4>
-    {/* <hr /> */}
+    <br />
 
 
 
@@ -56,7 +56,7 @@ const IndexPage = ({data}) => (
     style={{
             color : '#CF5F9C' , 
             // marginTop : '25px' ,
-          }}> <h3>See all Blogs </h3></Link>
+          }}> <h4>See all Blogs </h4></Link>
           
     <br />
     <br />

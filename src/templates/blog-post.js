@@ -2,7 +2,6 @@ import React from 'react'
 import Link from 'gatsby-link'
 import SEO from "../components/seo"
 import { graphql } from 'gatsby';
-import Menu from "../components/menu"
 import Layout from "../components/layout"
 
 export default function Template({data}){

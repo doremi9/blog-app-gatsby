@@ -31,7 +31,7 @@ const AboutPage = () => (
       Goodreads </a>
       .
   </p>
-  <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,marginTop: `1.45rem` }}>
+  <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,marginTop: `1.45rem` , borderRadius : '50%'}}>
   <Displaypic />
     </div>
 <br />
