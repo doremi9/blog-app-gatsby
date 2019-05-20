@@ -12,8 +12,8 @@ import Menu from "./menu"
 
 
 import Header from "./header"
-import "./layout.css"
-import "./menu.css"
+// import "./layout.css"
+// import "./menu.css"
 
 const Layout = ({ children }) => (
   <StaticQuery

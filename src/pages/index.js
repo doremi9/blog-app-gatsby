@@ -5,13 +5,16 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import styles from  "./index.css"
+
+
 const IndexPage = ({data}) => (
   
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
   
     <h3>Hi All </h3>
-    <p>Welcome to my Always Creating !! A Blog Website dedicated to learning and sharing 
+    <p className={styles['main-para']}>Welcome to my Always Creating !! A Blog Website dedicated to learning and sharing 
       ideas and technologies, which I will come across while creating products. </p>
       <strong>Lets Create Great things !! 😎  </strong> 
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,  marginTop: `1.45rem` }}>
