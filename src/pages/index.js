@@ -12,52 +12,62 @@ const IndexPage = ({data}) => (
   
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-  
-    <h3>Hi All </h3>
-    <p className={styles['main-para']}>Welcome to my Always Creating !! A Blog Website dedicated to learning and sharing 
-      ideas and technologies, which I will come across while creating products. </p>
-      <strong>Lets Create Great things !! 😎  </strong> 
+
+    
+    <p className={styles['main-para']}>    <strong  style = {{color : '#925FCF'}} > Hi All !! </strong> Welcome to my Always Creating !! 
+      Always Creating is a blog series focussed on largely 3 domains : Development, Coding and Books.
+      The blogs will be about tools, technologies and concepts which I come across while creating new projects. 
+      Also occasionally some blogs will be on fascinating ideas and principles based on interesting books.
+    </p>
+    
+    <strong>Lets Create Great things !! 😎  </strong> 
+    
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,  marginTop: `1.45rem` }}>
       <Image />
     </div> */}
     <br />
     <br />
 
-    <h3> Latest Articles</h3>
+    <h3  style = {{marginTop: '2em'}} > Latest Articles</h3>
     <hr />
     <Link to={data.allMarkdownRemark.edges[0].node.frontmatter.path} style = {{color : '#925FCF'}}>
-       <h4> {data.allMarkdownRemark.edges[0].node.frontmatter.title}</h4>
+        {data.allMarkdownRemark.edges[0].node.frontmatter.title}
     </Link> 
-    <br />
+    <br /> <br />
     <Link to={data.allMarkdownRemark.edges[1].node.frontmatter.path} style = {{color : '#925FCF'}} >
-       <h4> {data.allMarkdownRemark.edges[1].node.frontmatter.title}</h4>
+     {data.allMarkdownRemark.edges[1].node.frontmatter.title}
     </Link> 
-    <br />
+    <br /> <br />
 
     <Link to={data.allMarkdownRemark.edges[2].node.frontmatter.path} style = {{color : '#925FCF'}}>
-       <h4> {data.allMarkdownRemark.edges[2].node.frontmatter.title}</h4>
+        {data.allMarkdownRemark.edges[2].node.frontmatter.title}
     </Link> 
+    <br /> <br />
 
-    <br />
 
-    <h3> Recommended Articles</h3>
+    <h3 style = {{marginTop: '2em'}}> Recommended Articles</h3>
     <hr />
-    <h4>
+    {/* <h4> */}
     < a href = "https://bit.ly/2jMkuMs"  style = {{color : '#925FCF'}} > Secret of being a top developer is building things! </a>
     <br /> <br />
     < a href = "https://www.taniarascia.com/blog/"  style = {{color : '#925FCF'}} > Taniarascia blog </a> 
-    </h4>
+    <br /> <br />
+    < a href = "https://bit.ly/2qbWfLs"  style = {{color : '#925FCF'}} > Everything you Know about reading is wrong! </a> 
+    {/* </h4> */}
+    
     <br />
 
 
 
-
+{/* 
     <Link to="/blog/"  
     style={{
             color : '#CF5F9C' , 
             // marginTop : '25px' ,
-          }}> <h4>See all Blogs </h4></Link>
-          
+          }}> <h4>See all Blogs </h4>
+    </Link>
+           */}
+
     <br />
     <br />
     <br />

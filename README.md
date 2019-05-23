@@ -8,37 +8,18 @@
   Always Creating - A Blog
 </h1>
 
- Always Creating is a blog series  majorly focussing on 3 domains : Development, Coding and Books. I will mostly write about tools and 
-     technologies which i learn while creating products. Also I do plan to share
-     occasionally some fascinating ideas and principles which i will come across while reading books. 
+ Always Creating is a blog series focussed on largely 3 domains : Development, Coding and Books. The blogs will be about tools, technologies and concepts which I come across while creating new projects. Also occasionally some blogs will be on fascinating ideas and principles based on interesting books. 
 
-## 🚀 Quick start
+## 🚀Blog Desgin
 
-1.  **Create a Gatsby site.**
+1.  **A Gatsby site.**
+2.  **GraphQL for Loading data**
 
-    Use the Gatsby CLI to create a new site, specifying the default starter.
+##  Todo
 
-    ```sh
-    # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
-    ```
+1.  **Improve UI**
+2.  **Add more Sections**
 
-1.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```sh
-    cd my-default-starter/
-    gatsby develop
-    ```
-
-1.  **Open the source code and start editing!**
-
-    Your site is now running at `http://localhost:8000`!
-
-    _Note: You'll also see a second link: _`http://localhost:8000/___graphql`_. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby tutorial](https://www.gatsbyjs.org/tutorial/part-five/#introducing-graphiql)._
-
-    Open the `my-default-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
 
 ## 🧐 What's inside?
 

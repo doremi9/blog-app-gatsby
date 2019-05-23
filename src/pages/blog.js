@@ -2,8 +2,9 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-const BlogPage = ({data}) => (
+import "./index.css"
 
+const BlogPage = ({data}) => (
 
 <Layout>
   <SEO title="Blogs" />
@@ -20,7 +21,7 @@ const BlogPage = ({data}) => (
       <br />
       <br />
     
-          <Link to={post.node.frontmatter.path} style={{color:'#666666'}}> Read More </Link>
+          <Link to={post.node.frontmatter.path} style = {{color : '#925FCF'}}> Read More </Link>
 
       <br />
       <br />
