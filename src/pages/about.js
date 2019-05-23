@@ -11,7 +11,7 @@ const AboutPage = () => (
   <Layout>
   <SEO title="About Me" />
   <br />
-    <h2>  About the Blog Series   </h2>
+    <h3>  About the Blog Series   </h3>
     <p> 
     Always Creating is a blog series  majorly focussing on 3 domains : Development, Coding and Books. I will mostly write about tools and 
      technologies which i learn while creating products. Also I do plan to share
@@ -21,9 +21,9 @@ const AboutPage = () => (
     <hr />
     <br />
 
-  <h2>  About Me 🙄  </h2>
+  <h3>  About Me 🙄  </h3>
   <p> 
-  Hi! I am Vinci, A final year dual degree student at IIIT Allahabad. I love coding and creating things. 
+  Hi! I am Abhinav Vinci, A final year dual degree student at IIIT Allahabad. I love coding and creating things. 
   My hobbies include reading books, any outdoor activity 😍 and sometimes long talks about anything 😃. 
   These days I am mostly active on 
   {` `} 
@@ -34,7 +34,9 @@ const AboutPage = () => (
       Goodreads </a>
       .
   </p>
-  <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` ,marginTop: `1.45rem` , borderRadius : '50%'}}>
+  {/* <p> I have workes at Amazon as an SDE Intern.  </p> */}
+
+  <div style={{ maxWidth: `300px`, marginBottom: `3.45rem` ,marginTop: `2.75rem` , borderRadius : '50%'}}>
   <Displaypic />
     </div>
 <br />

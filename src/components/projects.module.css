@@ -1,0 +1,11 @@
+.projects-ul {
+    list-style: 'none' ;
+    display : 'flex' ;
+    justify-content : 'space-evenly' ; 
+    color: '#0000FF' ;
+    /* alignContent: '' ; */
+} 
+
+.projects{
+    color : 'red';
+  }

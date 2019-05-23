@@ -8,7 +8,7 @@ const BlogPage = ({data}) => (
 
 <Layout>
   <SEO title="Blogs" />
-  <h2  style={{color:'#333333'}}> Latest Blogs </h2>
+  <h3  style={{color:'#333333'}}> Latest Blogs </h3>
   <hr />
   
   {data.allMarkdownRemark.edges.map(post=> (

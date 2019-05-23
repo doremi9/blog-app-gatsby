@@ -42,9 +42,9 @@ const Layout = ({ children }) => (
           <main>{children}</main>
           <hr />  
           <footer >
-            © May {new Date().getFullYear()},  Built by Abhinav Vinci using  
+            © May {new Date().getFullYear()},  Built by Abhinav Vinci,  
             {` `}
-            <a href="https://www.gatsbyjs.org">Gatsbyjs</a>
+            <a href="https://github.com/avvinci/Blog-app-gatsby"  target="_blank"  style = {{color : '#925FCF'}} >  Source on Github </a>
           </footer>
         </div>
       </>

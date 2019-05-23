@@ -17,7 +17,7 @@ const Menu = () => (
     }}>
          <li id ="menu-link"> <Link to ="/">Home </Link> </li>
          <li className = "menu-link"> <Link to ="/blog">Blog </Link> </li>
-         <li class="menu-link"> <Link to ="/page-2">Projects </Link> </li>
+         <li class="menu-link"> <Link to ="/projectPage">Projects </Link> </li>
          <li class="menu-link"> <Link to ="/about">About </Link> </li>
     </ul>
 </div>

@@ -48,11 +48,11 @@ const IndexPage = ({data}) => (
     <h3 style = {{marginTop: '2em'}}> Recommended Articles</h3>
     <hr />
     {/* <h4> */}
-    < a href = "https://bit.ly/2jMkuMs"  style = {{color : '#925FCF'}} > Secret of being a top developer is building things! </a>
+    < a href = "https://bit.ly/2jMkuMs"  target="_blank"     style = {{color : '#925FCF'}} > Secret of being a top developer is building things! </a>
     <br /> <br />
-    < a href = "https://www.taniarascia.com/blog/"  style = {{color : '#925FCF'}} > Taniarascia blog </a> 
+    < a href = "https://www.taniarascia.com/blog/"  target="_blank"     style = {{color : '#925FCF'}} > Taniarascia blog </a> 
     <br /> <br />
-    < a href = "https://bit.ly/2qbWfLs"  style = {{color : '#925FCF'}} > Everything you Know about reading is wrong! </a> 
+    < a href = "https://bit.ly/2qbWfLs"   target="_blank"   style = {{color : '#925FCF'}} > Everything you Know about reading is wrong! </a> 
     {/* </h4> */}
     
     <br />

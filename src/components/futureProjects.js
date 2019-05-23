@@ -1,10 +1,9 @@
 import React from "react"
-
+import projectStyles from './projects.module.css'
 
 const FutureProjects = () => (
 <div
     style = {{
-        // background: '#f4f4f4',
         paddingTop: '10px',
         width:'100%',
     }}> 
@@ -12,16 +11,21 @@ const FutureProjects = () => (
     
     <ul 
         style = {{
-            // listStyle:'none' , 
-            display: 'flex' , 
-            justifyContent: 'space-evenly',
+            listStyle:'none' , 
+            // display: 'flex' , 
+            // justifyContent: 'space-evenly',
             color: '#0000FF',
             // alignContent: ''
-        }}>
+        }}
+        >
         
-        <li style = {{color : '#925FCF'}} > 
+        {/* <li className = {projectStyles.projects} > 
+            A collaborative Text Editor 
+        </li> */}
+        <li style = {{color : '#925FCF'}}> 
             A collaborative Text Editor 
         </li>
+
         <li style = {{color : '#925FCF'}}> 
             A project in tribute to Feynman !!
         </li>
