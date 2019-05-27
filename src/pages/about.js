@@ -23,16 +23,11 @@ const AboutPage = () => (
 
   <h3>  About Me 🙄  </h3>
   <p> 
-  Hi! I am Abhinav Vinci, A final year dual degree student at IIIT Allahabad. I love coding and creating things. 
+  Hi! I love coding and creating things. 
   My hobbies include reading books, any outdoor activity 😍 and sometimes long talks about anything 😃. 
   These days I am mostly active on 
   {` `} 
-  <a href={`https://github.com/avvinci`} style= {{color:'blue'}}>
-   Github </a>
-    and {` `}
-    <a href={`https://www.goodreads.com/user/show/90010944-abhinav-vinci`}  style= {{color:'blue'}}>
-      Goodreads </a>
-      .
+  <a href={`https://github.com/doremi9`} style= {{color:'blue'}}>Github </a>.
   </p>
   {/* <p> I have workes at Amazon as an SDE Intern.  </p> */}
 
@@ -44,8 +39,6 @@ const AboutPage = () => (
 </Layout>
 
 )
-
-
 
 
 export default AboutPage; 

@@ -2,7 +2,7 @@
 path : "/post-two"
 date : "2019-02-01"
 title: "A begginers Take on reading"
-author: "Abhinav Vinci"
+author: "doremi9"
 ---
 
 So I started out reading just a couple of months back. I recently finished my target of reading for 100 hours. Here’s what all I have learned about reading books through this short and interesting journey :

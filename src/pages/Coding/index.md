@@ -2,7 +2,7 @@
 path : "/post-one"
 date : "2019-03-01"
 title: "Placements — The Essential Guide"
-author: "Abhinav Vinci"
+author: "doremi9"
 ---
 
 ### Part 1 — Overview .
